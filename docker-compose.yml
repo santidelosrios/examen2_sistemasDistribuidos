@@ -1,0 +1,15 @@
+version: '2'
+services:
+  node:
+    image: node_container
+    ports:
+      - "49160:8090"
+    links:
+      - postgres
+    depends_on:
+      - postgres
+  postgres:
+    image: postgres_container
+    ports:
+      - "5432:5432"
+

@@ -1,0 +1,15 @@
+{
+  "name": "mira_ve_web",
+  "version": "1.0.0",
+  "description": "Nodejs App in Docker",
+  "author": "Santiago De Los Rios <sdelosrios95@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "pg" : "6.0.0"
+  }
+}
+
